@@ -1,2 +1,3 @@
-# environment-components
-The repository of environment components available to the LabManager application
+# Gigantum Official Environment Repository
+
+The repository of official Base and Custom environment components available in the Gigantum app

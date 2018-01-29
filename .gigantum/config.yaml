@@ -1,8 +1,0 @@
-repo:
-  name: gigantum
-  human_name: Gigantum Official
-  url: https://github.com/gigantum/environment-components.git
-maintainer:
-  name: Gigantum
-  email: hello@gigantum.io
-  url: gigantum.io

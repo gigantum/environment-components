@@ -1,0 +1,6 @@
+id: gigantum-official
+name: Gigantum Official Environment Repository
+url: https://github.com/gigantum/environment-components.git
+maintainers:
+  - gigantum
+

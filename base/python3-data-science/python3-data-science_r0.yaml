@@ -14,7 +14,7 @@ image:
   server: hub.docker.com
   namespace: gigantum
   repository: python3-data-science
-  tag: 49d3e99a-2018-01-11
+  tag: 835b3be8-2018-02-01
 languages:
   - python3
 development_tools:

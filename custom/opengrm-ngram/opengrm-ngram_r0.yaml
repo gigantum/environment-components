@@ -7,7 +7,7 @@ tags: ["ubuntu", "nlp", "natural language procesing", "ngram", "opengrm"]
 os_base_class: ubuntu
 required_package_managers:
   - apt
-license: 
+license: Apache 2.0
 url: http://www.openfst.org/twiki/bin/view/GRM/NGramLibrary
 docker: |
   RUN apt-get install -y --no-install-recommends build-essential && \

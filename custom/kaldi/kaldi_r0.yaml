@@ -7,7 +7,7 @@ tags: ["ubuntu", "nlp", "natural language procesing", "word embedding", "word2ve
 os_base_class: ubuntu
 required_package_managers:
   - apt
-license: 
+license: Apache 2.0
 url: http://kaldi-asr.org/
 docker: |
  RUN mkdir -p /opt/build/ && \

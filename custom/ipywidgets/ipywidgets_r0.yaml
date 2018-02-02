@@ -7,7 +7,7 @@ tags: ["ubuntu", "python2", "python3", "jupyter", "ipython", "jupyterlab"]
 os_base_class: ubuntu
 required_package_managers:
   - conda
-license: 
+license: various 
 url: http://jupyter.org/widgets
 docker: |
   # Install and configure ipywidgets in JupyterLab

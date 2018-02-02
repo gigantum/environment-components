@@ -1,0 +1,30 @@
+id: opengrm-ngram
+name: OpenGRM NGram
+description: "A Library for making n-gram language models encoded as weighted finite-state transducers (FSTs)"
+revision: 0
+schema: 1
+tags: ["ubuntu", "nlp", "natural language procesing", "ngram", "opengrm"]
+os_base_class: ubuntu
+required_package_managers:
+  - apt
+license: Apache 2.0
+url: http://www.openfst.org/twiki/bin/view/GRM/NGramLibrary
+docker: |
+  RUN apt-get install -y --no-install-recommends build-essential && \
+  mkdir -p /opt/build/ && \
+  cd /opt/build/ && \
+  curl -o openfst-1.6.3.tar.gz "http://openfst.org/twiki/pub/FST/FstDownload/openfst-1.6.3.tar.gz" && \
+  tar xzf openfst-1.6.3.tar.gz && \
+  cd openfst-1.6.3 && \
+  ./configure --enable-far=true --enable-pdt=true --enable-mpdt=true && \
+  make -j 2 && \ 
+  make install
+  
+  RUN mkdir -p /opt/build/ && \
+  cd /opt/build/ && \
+  curl -o opengrm-ngram-1.3.2.tar.gz "http://www.openfst.org/twiki/pub/GRM/NGramDownload/opengrm-ngram-1.3.2.tar.gz" && \
+  tar xzf opengrm-ngram-1.3.2.tar.gz && \
+  cd opengrm-ngram-1.3.2 && \
+  ./configure && \
+  make -j 2 && \
+  make install

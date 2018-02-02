@@ -1,0 +1,19 @@
+id: ipywidgets
+name: ipyWidgets
+description: "IPyWidgets"
+revision: 0
+schema: 1
+tags: ["ubuntu", "python2", "python3", "jupyter", "ipython", "jupyterlab"]
+os_base_class: ubuntu
+required_package_managers:
+  - conda
+license: various 
+url: http://jupyter.org/widgets
+docker: |
+  # Install and configure ipywidgets in JupyterLab
+  RUN conda install --quiet --yes nodejs=8.9* && \
+      conda install --quiet --yes -c conda-forge 'ipywidgets=7.1.*' && \
+      conda clean -tipsy && \
+      jupyter labextension install @jupyter-widgets/jupyterlab-manager && \
+      npm cache --force clean && \
+      rm -rf $CONDA_DIR/share/jupyter/lab/staging

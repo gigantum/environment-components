@@ -1,0 +1,26 @@
+id: kaldi
+name: KALDI
+description: "KALDI, a library for speech recognition written in C++."
+revision: 0
+schema: 1
+tags: ["ubuntu", "nlp", "natural language procesing", "word embedding", "word2vec"]
+os_base_class: ubuntu
+required_package_managers:
+  - apt
+license: Apache 2.0
+url: http://kaldi-asr.org/
+docker: |
+ RUN mkdir -p /opt/build/ && \
+ cd /opt/build/ && \
+ git clone https://github.com/kaldi-asr/kaldi.git kaldi --origin upstream && \
+ cd kaldi && \
+ apt-get install -y --no-install-recommends zlib1g-dev build-essential automake autoconf wget libtool subversion libatlas3-base && \
+ cd tools && \
+ make -j 2
+ 
+ RUN cd /opt/build/kaldi/src && \
+ ./configure --shared && \
+ make depend -j 2 && \
+ make -j 2
+ 
+ ENV KALDI_ROOT "/opt/build/kaldi"

@@ -35,6 +35,6 @@ package_managers:
     - scipy=1.0.0
     - wkhtmltopdf=0.12.4
   - apt:
-    - libfontconfig1==latest
-    - libxext6==latest
-    - libxrender1==latest
+    - libfontconfig1=latest
+    - libxext6=latest
+    - libxrender1=latest

@@ -2,7 +2,7 @@ id: "r-tidyverse"
 name: "R Tidyverse (+ extras) in Jupyter (+ minimal python) Quick-Start"
 description: "A Base containing a conda-managed JupyterLab isntall for R with tidyverse packages pre-installed"
 readme: |
-  A Base containing a conda-managed JupyterLab isntall for R with tidyverse
+  A Base containing a conda-managed JupyterLab install for R with tidyverse
   packages pre-installed.
 revision: 0
 schema: 1

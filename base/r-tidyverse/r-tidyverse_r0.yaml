@@ -1,5 +1,5 @@
 id: "r-tidyverse"
-name: "R Tidyverse in Jupyter (+ minimal python) Quick-Start"
+name: "R Tidyverse (+ extras) in Jupyter (+ minimal python) Quick-Start"
 description: "A Base containing a conda-managed JupyterLab isntall for R with tidyverse packages pre-installed"
 readme: "A Base containing a conda-managed JupyterLab isntall for R with tidyverse packages pre-installed"
 revision: 0
@@ -13,7 +13,7 @@ image:
   server: hub.docker.com
   namespace: gigantum
   repository: r-tidyverse
-  tag: 4d16f7d7-2018-05-07
+  tag: a0688587-2018-05-30
   languages:
   - python3
   - r

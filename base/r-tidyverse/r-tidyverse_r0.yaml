@@ -16,7 +16,6 @@ image:
   tag: a0688587-2018-05-30
   languages:
   - python3
-  - r
 development_tools:
   - jupyterlab
 package_managers:

@@ -26,8 +26,9 @@ package_managers:
   - apt:
   - pip:
   - conda3:
-      # - r-essentials=3.4.*
-      # - r-tidyverse=1.2.*
+      # the below are actually from just two meta-packages:
+      # - r-essentials=3.4.3
+      # - r-tidyverse=1.2.1
       - r-assertthat=0.2.0
       - r-backports=1.1.2
       - r-base64enc=0.1_3
@@ -62,7 +63,6 @@ package_managers:
       - r-dplyr=0.7.4
       - r-drr=0.0.2
       - r-dt=0.2
-      - r-essentials=3.4.3
       - r-evaluate=0.10.1
       - r-forcats=0.2.0
       - r-foreach=1.4.5
@@ -157,7 +157,6 @@ package_managers:
       - r-tibble=1.4.1
       - r-tidyr=0.7.2
       - r-tidyselect=0.2.3
-      - r-tidyverse=1.2.1
       - r-timedate=3042.101
       - r-ttr=0.23_2
       - r-utf8=1.1.2

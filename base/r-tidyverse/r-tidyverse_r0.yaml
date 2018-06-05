@@ -16,7 +16,7 @@ image:
   server: hub.docker.com
   namespace: gigantum
   repository: r-tidyverse
-  tag: 583567d9-2018-06-01
+  tag: 376dd729-2018-06-05
 languages:
   - python3
   - rstats

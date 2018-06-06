@@ -19,7 +19,7 @@ image:
   tag: 376dd729-2018-06-05
 languages:
   - python3
-  - rstats
+  - R
 development_tools:
   - jupyterlab
 package_managers:

@@ -19,3 +19,12 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+--
+The R logo is © 2016 The R Foundation.
+
+The logo used for R base images is an altered SVG version of [the official
+logo](https://www.r-project.org/logo/) that has been modified to have a height
+and width of 50. It is distributed under the terms of the [Creative Commons
+Attribution-ShareAlike 4.0 International license (CC-BY-SA
+4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
+

@@ -11,7 +11,7 @@ readme: |
     - @jupyterlab/vega2-extension
     - jupyterlab-toc
 
-revision: 4
+revision: 5
 schema: 1
 tags: ['ubuntu', 'python3', 'jupyterlab']
 os_class: ubuntu

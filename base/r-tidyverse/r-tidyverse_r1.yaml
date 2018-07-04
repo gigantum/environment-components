@@ -2,7 +2,7 @@ id: "r-tidyverse"
 name: "R Tidyverse (+ Python3) in Jupyter Quickstart"
 description: "A conda-managed JupyterLab install for R + tidyverse packages, etc."
 readme: |
-  A Base containing a conda-managed JupyterLab isntall for R with tidyverse
+  A Base containing a conda-managed JupyterLab install for R with tidyverse
   packages pre-installed. MKL is enabled in a relatively "stock" miniconda
   install.
 revision: 1

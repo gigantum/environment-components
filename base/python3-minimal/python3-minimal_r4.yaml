@@ -14,7 +14,7 @@ image:
   namespace: gigantum
   repository: python3-minimal
   tag: df4dbd9a-2018-06-29
-  languages:
+languages:
   - python3
 development_tools:
   - jupyterlab

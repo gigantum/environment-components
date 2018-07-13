@@ -5,7 +5,7 @@ readme: |
   A Base containing a conda-managed JupyterLab install for R with tidyverse
   packages pre-installed. MKL is enabled in a relatively "stock" miniconda
   install.
-revision: 0
+revision: 2
 schema: 1
 tags: ['ubuntu', 'rstats', 'python3', 'jupyterlab']
 os_class: ubuntu
@@ -16,7 +16,7 @@ image:
   server: hub.docker.com
   namespace: gigantum
   repository: r-tidyverse
-  tag: 376dd729-2018-06-05
+  tag: df4dbd9a-2018-06-29
 languages:
   - python3
   - R

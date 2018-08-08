@@ -9,6 +9,7 @@ os_class: ubuntu
 os_release: "18.04"
 license: MIT
 url: null
+cuda_version: 9.2
 image:
   server: hub.docker.com
   namespace: gigantum

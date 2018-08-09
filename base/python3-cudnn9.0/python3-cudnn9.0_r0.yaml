@@ -9,7 +9,7 @@ os_class: ubuntu
 os_release: "16.04"
 license: MIT
 url: null
-cuda_version: 9.0
+cuda_version: "9.0"
 image:
   server: hub.docker.com
   namespace: gigantum

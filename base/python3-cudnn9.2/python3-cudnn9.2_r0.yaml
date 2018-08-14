@@ -1,10 +1,10 @@
 id: "python3-cudnn9.2"
-name: "Ubuntu 18.04 CUDA 9.2 Python3 Minimal"
+name: "GPU CUDA 9.2 Ubuntu 18.04 Python3 Minimal"
 description: "A Ubuntu 18.04 base with CUDA 9.2 GPU accessibility with Python 3.6 and JupyterLab only"
 readme: "A Ubuntu 18.04 base with CUDA 9.2 GPU accessibility with Python 3.6 and JupyterLab only"
 revision: 0
 schema: 1
-tags: ['ubuntu', 'cuda', 'gpu', 'machine-learning', 'python3', 'jupyterlab']
+tags: ['ubuntu', 'cuda', 'gpu', 'machine-learning', 'python3', 'jupyterlab', 'pytorch']
 os_class: ubuntu
 os_release: "18.04"
 license: MIT

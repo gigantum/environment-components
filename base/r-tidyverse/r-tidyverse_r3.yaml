@@ -8,7 +8,7 @@ readme: |
   install.packages or devtools::github_install in docker snippets.
 revision: 3
 schema: 1
-tags: ['ubuntu', 'rstats', 'python3', 'jupyterlab']
+tags: ['ubuntu', 'rstats', 'r', 'python3', 'jupyterlab']
 os_class: ubuntu
 os_release: "18.04"
 license: MIT

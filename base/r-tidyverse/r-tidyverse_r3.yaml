@@ -2,8 +2,10 @@ id: "r-tidyverse"
 name: "R Tidyverse (+ Python3) in Jupyter Quickstart"
 description: "A JupyterLab install for CRAN PPA R + tidyverse packages, etc."
 readme: |
-  A Base containing a conda-managed JupyterLab install for R with tidyverse
-  packages pre-installed. OpenBLAS is enabled on top of the official CRAN PPA.
+  R is configured with the CRAN and c2d4u3.5 PPAs for apt, with tidyverse,
+  data.table, and devtools pre-installed. OpenBLAS is enabled, and the "lite"
+  bioconductor package is installed. Install packages with apt, or docker
+  snippets (see Gigantum docs).
 revision: 3
 schema: 1
 tags: ['ubuntu', 'rstats', 'python3', 'jupyterlab']

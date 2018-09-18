@@ -3,9 +3,9 @@ name: "R Tidyverse (+ Python3) in Jupyter Quickstart"
 description: "A JupyterLab install for CRAN PPA R + tidyverse packages, etc."
 readme: |
   R is configured with the CRAN and c2d4u3.5 PPAs for apt, with tidyverse,
-  data.table, and devtools pre-installed. OpenBLAS is enabled, and the "lite"
-  bioconductor package is installed. Install packages with apt, or use
-  install.packages or devtools::github_install in docker snippets.
+  data.table, and devtools pre-installed. OpenBLAS is enabled, and the default
+  bioconductor packages are installed via `biocLite()`. Install packages with
+  apt, or use install.packages or devtools::github_install in docker snippets.
 revision: 3
 schema: 1
 tags: ['ubuntu', 'rstats', 'r', 'python3', 'jupyterlab']
